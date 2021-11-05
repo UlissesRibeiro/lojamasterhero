@@ -1,0 +1,79 @@
+#main-banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-caption{
+    top: 0;
+    bottom: auto;
+    text-shadow: 1px 1px 2px #27aecf;
+}
+
+.col a{
+    color: white;
+    background-color: #0b7792;
+}
+
+#logo img{
+    border-radius: 50%;
+    height: 200px;
+    width: auto;
+}
+
+#botoes{
+    padding-top: 200px;
+    border-radius: 50%;
+}
+
+#botoes a{
+    color: white;
+    background-color: #0b7792;
+    border-color: white;
+}
+
+/*#servicos img{
+    border-radius: 13%;
+}*/
+
+#about{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to right, black, #0b7792);
+}
+
+/*.navbar a{
+    color: white;
+}*/
+
+/*.navbar a:hover{
+    color:#c6e2cc
+}*/
+
+@media(max-width: 450px){
+    #logo img{
+        border-radius: 50%;
+        height: 100px;
+        width: auto;
+    }
+    #contato{
+        margin-top: 300px;
+    }
+}
+
+@media(max-width: 370px){
+    #logo img{
+        border-radius: 50%;
+        height: 0px;
+        width: auto;
+    }
+
+    #logo h1{
+        padding-top: 70px;
+        font-size: 18px;
+    }
+#contato{
+    margin-top: 300px;
+}
+
+}
+
