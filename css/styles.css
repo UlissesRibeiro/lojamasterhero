@@ -1,43 +1,110 @@
 #main-banner img{
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
+/* PRODUTOS INICIO */
+.item1{
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.item1 img{
+    width: 100%;   
+}
+
+.item2{
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.item2 img{
+    width: 100%;   
+}
+
+.item3{
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.item3 img{
+    width: 100%;   
+}
+
+.item4{
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
+.item4 img{
+    width: 100%;   
+}
+/* PRODUTOS FINAL */
+
+#servicos{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+#contato{
+    height: 300px;
+}
+#contato-bottons{
+    height: 250px;
+}
+
 .carousel-caption{
-    top: 0;
+    top: 80px;
+
     bottom: auto;
-    text-shadow: 1px 1px 2px #27aecf;
+    text-shadow: 1px 1px 2px black;
 }
 
 .col a{
     color: white;
-    background-color: #0b7792;
+    background-color: #fb5d03;
+}
+.col img{
+    border-radius: 20%;
+    border-top: 1px solid #fb5d03;
+    border-left: 1px solid #fb5d03;
+    border-bottom: 3px solid #fb5d03;
+    border-right: 3px solid #fb5d03;
 }
 
+
+
 #logo img{
+
     border-radius: 50%;
     height: 200px;
     width: auto;
 }
 
 #botoes{
-    padding-top: 200px;
+    
+    padding-top: 550px;
     border-radius: 50%;
 }
 
 #botoes a{
     color: white;
-    background-color: #0b7792;
-    border-color: white;
+    background-color: #fb5d03;
+    border-color: black;
 }
+/* cor teste 1 00e3f5 , cor 2 009cde ,  */
 
 /*#servicos img{
     border-radius: 13%;
 }*/
 
 #about{
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     background-image: linear-gradient(to right, black, #0b7792);
 }
 
@@ -56,8 +123,54 @@
         width: auto;
     }
     #contato{
-        margin-top: 300px;
+        height: 400px;
+        margin-top: 490px;
     }
+
+    #contato-home{
+        height: 550px;
+        margin-top: 90px;
+    }
+
+    #contato-bottons{
+        height: 500px;
+    }
+    .carousel-inner img{
+        height: 250px;
+    }
+#tam-box{
+    height: 250px;
+}
+#prod1 a{
+    padding-top: 3px;
+    left: 60px;
+}
+
+#prod2 a{
+    padding-top: 3px;
+    left: 60px;
+}
+#prod3 a{
+    padding-top: 3px;
+    left: 40px;
+}
+#prod4 a{
+    padding-top: 3px;
+    left: 60px;
+}
+#prod5 a{
+    padding-top: 3px;
+    left: 60px;
+}
+#servicos{
+    padding-top: 100px;
+    padding-bottom: 900px;
+}
+
+#servicos-home{
+    padding-top: 50px;
+    padding-bottom: 450px;
+}
 }
 
 @media(max-width: 370px){
@@ -72,7 +185,11 @@
         font-size: 18px;
     }
 #contato{
-    margin-top: 300px;
+    margin-top: 470px;
+}
+#prod1 a{
+    padding-top: 3px;
+    left: 33px;
 }
 
 }

@@ -26,6 +26,7 @@
     </head>
 
     <body>
+        <!-- inicio navbar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light rounded fixed-top"  aria-label="Twelfth navbar example">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,16 +41,19 @@
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Produtos</a>
                     <ul class="dropdown-menu" aria-labelledby="dropdown10">
-                        <li><a class="dropdown-item" href="#">Bottons</a></li>
-                        <li><a class="dropdown-item" href="#">Colecionaveis</a></li>
-                        <li><a class="dropdown-item" href="#">Chaveiros</a></li>
+                        <li><a class="dropdown-item" href="bottons.html">Bottons</a></li>
+                        <li><a class="dropdown-item" href="camisas.html">Camisas</a></li>
+                        <li><a class="dropdown-item" href="colecionaveis.html">Colecionaveis</a></li>
+                        <li><a class="dropdown-item" href="chaveiros.html">Chaveiros</a></li>
+                        <li><a class="dropdown-item" href="pelucias.html">Pelucias</a></li>
+                        <li><a class="dropdown-item" href="produtos.html">Ver todos</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
+                  <!--<li class="nav-item">
                     <a class="nav-link" href="#about">Quem somos</a>
-                  </li>
+                  </li>-->
                   <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
+                    <a class="nav-link" href="#contato-home">Contato</a>
                   </li>
                   <!--<li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
@@ -63,6 +67,7 @@
               </div>
             </div>
           </nav>
+          <!-- fim navbar -->
 
 <main>
     
@@ -72,12 +77,12 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/banner1.png" class="d-block " alt="...">
+                        <img src="img/banner_slogan.png" class="d-block " alt="...">
                     </div>
                    
                     <div class="carousel-caption" id="logo">
-                        <img src="/img/logo.jpg" height="10px">
-                        <h1 style="text-shadow: 2px 2px 2px black;">O lado geek da força</h1>
+                        <!--<img src="/img/logo.jpg" height="10px">-->
+                        <!--<h2 style="text-shadow: 2px 2px 2px black;padding-top: 480px;" class="text-uppercase">O lado geek da força</h2>-->
                         <div class="d-grid gap-2 d-md-flex justify-content-md-center" id="botoes">
                             <a class="btn " type="button" href="#contato">Entre em contato</a>
                             <a class="btn" type="button" href="https://api.whatsapp.com/send?phone=5583988599603" target="_blank">Whatsapp</a>
@@ -103,18 +108,19 @@
             </div>
             <!-- fim do carrosel/banner -->
         <!-- banner final -->
+
         <!-- About Section-->
-        <section class="page-section text-white mb-0" id="about">
+        <!--<section class="page-section text-white mb-0" id="about">
             <div class="container">
-                <!-- About Section Heading-->
+                <!-- About Section Heading--
                 <h2 class="page-section-heading text-center text-uppercase text-white">Quem somos</h2>
-                <!-- Icon Divider-->
+                <!-- Icon Divider--
                 <div class="divider-custom divider-light">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- About Section Content-->
+                <!-- About Section Content--
                 <div class="row">
                     <div class="col-lg-4 ms-auto"><p class="lead">
                         
@@ -130,21 +136,23 @@
                         <i class="fas fa-download me-2"></i>
                         Free Download!
                     </a>
-                </div>-->
+                </div>--
             </div>
-        </section>
-<!-- Portfolio Section-->
-<section class="page-section portfolio" id="servicos" style="padding-top: 100px;">
+        </section>-->
+        <!-- final about sesction -->
+
+<!-- produtos Section-->
+<section class="page-section portfolio" id="servicos-home" style="padding-top: 100px;">
     <div class="container">
         <!-- Portfolio Section Heading-->
-        <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0" style="padding-bottom: 30px;">Conheça nossos produtos</h2>
+        <h2 class="page-section-heading text-center mb-0" style="padding-bottom: 30px;">Conheça nossos produtos</h2>
         <!-- Icon Divider-->
         <div class="divider-custom">
             <div class="divider-custom-line"></div>
             <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
             <div class="divider-custom-line"></div>
         </div>
-        <div class="d-block w-100" style="background-color:; height: 600px;">
+        <div class="d-block w-100" id="tam-box" style="background-color:; height: 450px;">
             <!--carrosel dentro da box malawho -->
             <div class="album py-5 produtos">
               <div class="container ">
@@ -154,15 +162,15 @@
                     <div id="prod1" class="carousel slide /*carousel-fade*/ " data-bs-ride="carousel">
                       <div class="carousel-inner"style="height: 250px;">
                         <div class="carousel-item active" >
-                          <img src="img/camisa.png"  class="d-block w-100"  alt="...">
+                          <img src="img/jujutsu_cover.PNG"  class="d-block w-100"  alt="...">
                         </div>
                     </div>
                     <div class="carousel-caption text-start  d-md-block"> 
-                    <h5 style="color: black; text-align: left;" >Produto 1</h5>
+                    <!--<h5 style="color: black; text-align: left;" >Produto 1</h5>
                     <h4 style="color: black; text-align: left;">R$ XX,XX</h4>
-                    <p style="color: black; text-align: left;">Disponivel</p>                
-                    <div class="btn-group">
-                      <a href="https://api.whatsapp.com/send?phone=5583988599603&text=Me interessei nesse produto" role="button" class="btn btn-sm btn-outline-secondary">Comprar</a>
+                    <p style="color: black; text-align: left;">Disponivel</p>-->
+                    <div class="btn-group " style="padding-top: 110px;left: 50px;">
+                      <a href="bottons.html" role="button"  class="btn btn-sm btn-outline-secondary">Bottons</a>
                     </div>
                   </div>
                 </div>
@@ -179,11 +187,11 @@
                     </div>
                 </div>
                 <div class="carousel-caption text-start  d-md-block"> 
-                <h5 style="color: black; text-align: left;" >Produto 1</h5>
+                <!--<h5 style="color: black; text-align: left;" >Produto 1</h5>
                 <h4 style="color: black; text-align: left;">R$ XX,XX</h4>
-                <p style="color: black; text-align: left;">Disponivel</p>                
-                <div class="btn-group">
-                  <a href="https://api.whatsapp.com/send?phone=5583988599603&text=Me interessei nesse produto" role="button" class="btn btn-sm btn-outline-secondary">Comprar</a>
+                <p style="color: black; text-align: left;">Disponivel</p>    -->            
+                <div class="btn-group"  style="padding-top: 110px;left: 37px;">
+                  <a href="colecionaveis.html" role="button" class="btn btn-sm btn-outline-secondary">Colecionaveis</a>
                 </div>
               </div>
             </div>
@@ -194,17 +202,17 @@
       <div class="col">
         <div class="card shadow-sm item3 ">
             <div id="prod1" class="carousel slide /*carousel-fade*/ " data-bs-ride="carousel">
-              <div class="carousel-inner"style="height: 250px;">
+              <div class="carousel-inner" style="height: 250px;">
                 <div class="carousel-item active" >
-                  <img src="img/pelucia.png"  class="d-block w-100"  alt="...">
+                  <img src="img/bottons/chaveiro_cover.PNG"  class="d-block w-100"  alt="...">
                 </div>
             </div>
             <div class="carousel-caption text-start  d-md-block"> 
-            <h5 style="color: black; text-align: left;" >Produto 1</h5>
+            <!--<h5 style="color: black; text-align: left;" >Produto 1</h5>
             <h4 style="color: black; text-align: left;">R$ XX,XX</h4>
-            <p style="color: black; text-align: left;">Disponivel</p>                
-            <div class="btn-group">
-              <a href="https://api.whatsapp.com/send?phone=5583988599603&text=Me interessei nesse produto" role="button" class="btn btn-sm btn-outline-secondary">Comprar</a>
+            <p style="color: black; text-align: left;">Disponivel</p>-->                
+            <div class="btn-group" style="padding-top: 110px;left: 50px;">
+              <a href="chaveiros.html" role="button" class="btn btn-sm btn-outline-secondary">Chaveiros</a>
             </div>
           </div>
           
@@ -215,11 +223,12 @@
 
   <section>
     <div>
-        <h2 class="page-section-heading text-center  mb-0" style=" padding-bottom:15px; padding-top: 10px; font-size: 22px;">
-          <a class="btn btn-lg" style="background-color:#0b7792;color: white;border-color: black; "href="produtos.html">Confira</a></h2>
+        <h2 class="page-section-heading text-center  mb-0" style=" padding-bottom:15px; padding-top: 40px; font-size: 22px;">
+          <a class="btn btn-lg" style="background-color:#fb5d03;color: white;border-color: black; "href="produtos.html">E muito mais, confira!</a></h2>
 
         
     </section>
+    <!-- fim produtos section -->
 
         <!-- Portfolio Grid Items--
         <div class="row justify-content-center">
@@ -287,20 +296,20 @@
 
 <section class="page-section text-white mb-0" style="background-image: url('img/fundo.jpeg');
   background-image: linear-gradient(to right, black, #0b7792);   background-size: cover;
-  padding-top: 50px;" id="contato" >
+  padding-top: 20px;" id="contato-home" >
  <!-- google maps -->
-<section id="maps" style="padding-top: 20px;">
+<section id="maps" style="padding-top: 90px;">
 
 
     <div> <!-- Box 03 Total -->
     
-        <div class="mapa">
+        <!--<div class="mapa">
             
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126682.34216180952!2d-34.95163806200133!3d-7.146433231034314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ace839019aa3d7%3A0x6e414a9c6d26db34!2sJo%C3%A3o%20Pessoa%2C%20PB!5e0!3m2!1spt-BR!2sbr!4v1636117256231!5m2!1spt-BR!2sbr"
             width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     
     
-      <div class="btn absolute"></div>
+      <div class="btn absolute"></div>-->
         </div>
     
         
