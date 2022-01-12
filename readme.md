@@ -3,7 +3,7 @@
 
 <!-- descrição do projeto -->
 <p align="center"> Projeto com intuito de trabalhar num site de loja virtual, porém
-nesse momento utilizei html,css e bootstrap, ainda não tinha conhecimento em php e bancod e dados,
+nesse momento utilizei html,css e bootstrap, ainda não tinha conhecimento em php e banco de dados,
 logo mais estarei retomando esse projeto ou criar um novo a partir dele!</p>
 
 
