@@ -26,6 +26,7 @@ body{
     padding-top: 20px;
 }
 
+
 #btTest{
     margin-top: 450px;
     width: 15%;
@@ -34,6 +35,13 @@ body{
     background-color: rgb(246, 108, 9);
     color: white;
 }
+#produtos button{
+    border-color: black;
+    background-color: rgb(16, 135, 195);
+    color: white;
+    width: 50%;
+}
+
 /*Classes*/
 .footer{
 
