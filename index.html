@@ -52,12 +52,50 @@
       <section class="" id="home" style="position: relative;">
         <div id="" class="d-flex justify-content-center">
             <a href="" target="_blank" class="btn" id="btTest">Confira nossa loja!</a>
+
           </div>
 
           
         <!--<img src="/img/banner1.png" alt="">-->
       </section>
+      
+      <section class="container justify-content-center" id="produtos">
+        <div class=" d-flex justify-content-center" id="btProdutos">
+          <button class="btn" onclick="showCamisas()">Camisas</button>
+          <button class="btn" onclick="bottons()">Bottons</button>
+          <button class="btn" onclick="colecionaveis()">Colecionaveis</button>
+        </div>
+        
+        <div class="row" style="width:auto;">             
+          <div class="col " id="" >
+            <div class="card shadow-sm port1">
+              <img src="img/camisa.png" alt="" id="camisas" style="height: 400px;display:none;" srcset="">
+              <div class="d-flex justify-content-center">
+                <button onclick="hideCamisas()" id="btHide" style="display: none;width: 10%;">X</button>
+              </div>
+                
+                <!--<text x="50%" y="50%" fill="#eceeef" dy=".3em">O que é League of Legends?</text>-->
+            </div>
+          </div>
+        
+          <div class="col  justify-content-center" id="">
+            <div class="card shadow-sm port2">
+                <img src="img/bottons/bot_demon_1.jpg" id="bottons" style="height: 400px;display: none;" alt="">
+            </div>
+          </div>
+        
+          <div class="col " id="">
+            <div class="card shadow-sm port3">
+             <img src="img/colecionaveis/col_jujutsu_1.jpg" id="colecionaveis" style="height: 400px;display: none" alt="">
+            </div>
+          </div>
+        
+        </div>
+      </section>
+<script>
 
+  
+</script>
       <section id="footer">
                 <!-- Footer-->
                 <footer class="footer text-center">
@@ -117,5 +155,6 @@
         })();
     </script>
     <!--/whatsapp -->
+    <script src="js/functions.js"></script>
     </body>
 </html>
