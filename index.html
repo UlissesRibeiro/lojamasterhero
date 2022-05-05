@@ -58,12 +58,44 @@
           
         <!--<img src="/img/banner1.png" alt="">-->
       </section>
+      <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2" id="prods">
+        <div class="col">
+        <div class="card shadow-sm str17">
+          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#camisa" aria-expanded="false" aria-controls="camisa">Camisas</button>		  
+        <div class="card-body collapse" id="camisa">
+
+          <img src="img/camisa.png"  alt="" srcset="">
+        </div>
+        </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm str17">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#bottom" aria-expanded="false" aria-controls="bottom">Bottons</button>		  
+          <div class="card-body collapse" id="bottom">
+  
+            <img src="img/botton.PNG" alt="" srcset="">
+          </div>
+          </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm str17">
+              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#colec" aria-expanded="false" aria-controls="colec">Colecionaveis</button>		  
+            <div class="card-body collapse" id="colec">
+    
+              <img src="img/col.png" alt="" srcset="">
+            </div>
+            </div>
+            </div>
+      </div>
+    </div>
       
-      <section class="container justify-content-center" id="produtos">
+      <!--<section class="container justify-content-center" id="produtos">
         <div class=" d-flex justify-content-center" id="btProdutos">
           <button class="btn" onclick="showCamisas()">Camisas</button>
-          <button class="btn" onclick="bottons()">Bottons</button>
-          <button class="btn" onclick="colecionaveis()">Colecionaveis</button>
+          <button class="btn" onclick="showBottons()">Bottons</button>
+          <button class="btn" onclick="showCole()">Colecionaveis</button>
         </div>
         
         <div class="row" style="width:auto;">             
@@ -71,27 +103,33 @@
             <div class="card shadow-sm port1">
               <img src="img/camisa.png" alt="" id="camisas" style="height: 400px;display:none;" srcset="">
               <div class="d-flex justify-content-center">
-                <button onclick="hideCamisas()" id="btHide" style="display: none;width: 10%;">X</button>
+                <button class="btn" onclick="hideCamisas()" id="hideCamisa" style="display: none;width: 10%;">X</button>
               </div>
                 
-                <!--<text x="50%" y="50%" fill="#eceeef" dy=".3em">O que é League of Legends?</text>-->
+                <!--<text x="50%" y="50%" fill="#eceeef" dy=".3em">O que é League of Legends?</text>--
             </div>
           </div>
         
           <div class="col  justify-content-center" id="">
             <div class="card shadow-sm port2">
                 <img src="img/bottons/bot_demon_1.jpg" id="bottons" style="height: 400px;display: none;" alt="">
+                <div class="d-flex justify-content-center">
+                  <button class="btn" onclick="hideBottons()" id="hideBotton" style="display: none;width: 10%;">X</button>
+                </div>
             </div>
           </div>
         
           <div class="col " id="">
             <div class="card shadow-sm port3">
              <img src="img/colecionaveis/col_jujutsu_1.jpg" id="colecionaveis" style="height: 400px;display: none" alt="">
+             <div class="d-flex justify-content-center">
+              <button class="btn" onclick="hideCole()" id="hideColecionavel" style="display: none;width: 10%;">X</button>
+            </div>
             </div>
           </div>
         
         </div>
-      </section>
+      </section>-->
 <script>
 
   
