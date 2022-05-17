@@ -27,12 +27,15 @@ body{
 }
 #camisa img{
     width: 390px;
+    border-radius: 10px;
 }
 #bottom img{
     width: 390px;
+    border-radius: 10px;
 }
 #colec img{
     width: 390px;
+    border-radius: 10px;
 }
 
 
@@ -58,6 +61,16 @@ body{
     height: 25vh;
 }
 
+.btnProd{
+    padding-top: 10px;
+}
+
+.card{
+    border-radius: 10px;
+    border-color: transparent;
+
+    
+}
 
 
 /*responsive*/
