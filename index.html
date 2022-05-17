@@ -28,7 +28,7 @@
 
     <body>
 <main>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Master Hero</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,10 @@
                 <a class="nav-link" aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Loja</a>
+                <a class="nav-link" href="https://lojaintegrada.com.br">Loja</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contato</a>
+                <a class="nav-link" href="#contato">Contato</a>
               </li>
             </ul>
           </div>
@@ -51,7 +51,7 @@
       </nav>
       <section class="" id="home" style="position: relative;">
         <div id="" class="d-flex justify-content-center">
-            <a href="" target="_blank" class="btn" id="btTest">Confira nossa loja!</a>
+            <a href="https://lojaintegrada.com.br" target="_blank" class="btn" id="btTest">Confira nossa loja!</a>
 
           </div>
 
@@ -62,26 +62,26 @@
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-2" id="prods">
         <div class="col">
         <div class="card shadow-sm str17">
-          <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#camisa" aria-expanded="false" aria-controls="camisa">Camisas</button>		  
-        <div class="card-body collapse" id="camisa">
+          <!--<button class="btn btn-primary" style="width: 100%;" type="button" data-bs-toggle="collapse" data-bs-target="#camisa" aria-expanded="false" aria-controls="camisa">Camisas</button>		  -->
+        <div class="card-body " id="camisa">
 
           <img src="img/camisa.png"  alt="camisas" srcset="">
           <div class="btn-group-vertical d-flex btnProd">
             <button class="btn" style="background-color:rgb(246, 108, 9);color:white;"><i class="bi bi-bag-fill"></i> Comprar</button>
-            <button class="btn" style="border-color:rgb(246, 108, 9) ;color:rgb(246, 108, 9);">Veja mais produtos!</button>
+            <button class="btn" style="background-color: white; border-color:rgb(246, 108, 9) ;">Veja mais produtos!</button>
           </div>
         </div>
         </div>
         </div>
         <div class="col">
           <div class="card shadow-sm str17">
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#bottom" aria-expanded="false" aria-controls="bottom">Bottons</button>		  
-          <div class="card-body collapse" id="bottom">
+            <!--<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#bottom" aria-expanded="false" aria-controls="bottom">Bottons</button>-->	
+          <div class="card-body " id="bottom">
   
             <img src="img/botton.PNG" alt="bottons" srcset="">
             <div class="btn-group-vertical d-flex btnProd">
               <button class="btn" style="background-color:rgb(246, 108, 9);color:white;"><i class="bi bi-bag-fill"></i> Comprar</button>
-              <button class="btn" style="border-color:rgb(246, 108, 9) ;color:rgb(246, 108, 9);">Veja mais produtos!</button>
+              <button class="btn" style="background-color: white; border-color:rgb(246, 108, 9) ;">Veja mais produtos!</button>
             </div>
           </div>
           </div>
@@ -89,13 +89,13 @@
 
           <div class="col">
             <div class="card shadow-sm str17">
-              <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#colec" aria-expanded="false" aria-controls="colec">Colecionaveis</button>		  
-            <div class="card-body collapse" id="colec">
+              <!--<button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#colec" aria-expanded="false" aria-controls="colec">Colecionaveis</button>-->		  
+            <div class="card-body " id="colec">
     
               <img src="img/col.png" alt="colecionaveis" srcset="">
               <div class="btn-group-vertical d-flex btnProd">
                 <button class="btn" style="background-color:rgb(246, 108, 9);color:white;"><i class="bi bi-bag-fill"></i> Comprar</button>
-                <button class="btn" style="border-color:rgb(246, 108, 9) ;color:rgb(246, 108, 9);">Veja mais produtos!</button>
+                <button class="btn" style="background-color: white; border-color:rgb(246, 108, 9) ;">Veja mais produtos!</button>
               </div>
             </div>
             </div>
@@ -168,7 +168,7 @@
                             </div>
                             <!-- Footer About Text-->
                             <div class="col-lg-4">
-                                <h4 class="text-uppercase mb-4" style="padding-top:;">Contato</h4>
+                                <h4 class="text-uppercase mb-4" style="padding-top:;" id="contato">Contato</h4>
                                 <ul class="nav flex-column">
                                     <li class="nav-item mb-2">E-mail : <strong>
                                         masterhero.contato@gmail.com</strong> </li>
@@ -182,6 +182,10 @@
                         </div>
                     </div>
                 </footer>
+                             <!-- Copyright Section-->
+              <div class="copyright py-4 text-center text-white">
+                <div class="container" style="color: black;"><small>&copy;<strong><a href="#" style="text-decoration: none;color: black;"> Loja Master Hero</a></strong> - 2022</small></div>
+            </div>                          
       </section>
 </main>
 

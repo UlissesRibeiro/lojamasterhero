@@ -59,6 +59,11 @@ body{
 
     background-color:rgb(37, 136, 136) ;
     height: 25vh;
+    padding-top: 50px;
+}
+
+.copyright{
+    background-color:rgb(37, 136, 136) ;
 }
 
 .btnProd{
@@ -68,6 +73,7 @@ body{
 .card{
     border-radius: 10px;
     border-color: transparent;
+    background-color: transparent;
 
     
 }
@@ -88,7 +94,8 @@ body{
     
 #home{
   background-size: 100%;
-  height: 24vh; 
+  height: 24vh;
+  margin-top: 60px; 
 }
 #home img{
     width: cover;
@@ -108,10 +115,10 @@ body{
 }
 
 #footer p{
-    padding-top: 10px;
+    padding-top: 0px;
 }
 #footer h4{
-    padding-top: 10px;
+    padding-top: 50px;
 }
 
 }
